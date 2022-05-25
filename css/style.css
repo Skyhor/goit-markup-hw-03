@@ -50,6 +50,16 @@ list-style: none;
 }
 /* ==========Reset Styles */
 /* =========Header=========== */
+.background-header{
+    background-color:#FFFFFF;
+}
+.container{
+    
+}
+.logo-style{
+    margin-left: 215px;
+    margin-bottom: 24px;
+}
 .logo-link{
     font-family: 'Raleway', sans-serif;
         font-weight: 700;
@@ -78,6 +88,16 @@ list-style: none;
 .header-nav-link:hover, 
 .header-nav-link:focus {
     color: var(--accent-color);
+}
+.test{
+    display: block;
+    width: 49px;
+    height: 16px;
+    margin-top: 32px;
+    margin-left: 453px;
+    
+    
+  
 }
 .header-contact{
     font-style: normal;
