@@ -5,7 +5,41 @@
     --black-color: #212121;
     --contact-color: #757575;
     --white-color: #FFFFFF;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--black-color)
+}
+.text {
+    width: 270px;
+    height: 75px;
+    box-sizing: border-box;
+}
+*{
+    outline:1px solid tomato ;
+}
+/* =======Reset Styles========= */
 
+h1,
+h2,
+h3,
+p
+{
+margin-top: 0;
+margin-bottom: 0;
+
+
+}
+ul,
+ol
+{
+margin-top: 0;
+margin-bottom: 0;
+margin-left: 0;
+padding: unset;
+}
+img{
+    display: block;
 }
 
 .list{
@@ -14,12 +48,7 @@ list-style: none;
  .link{
     text-decoration: none;
 }
-body{
-    font-family: 'Roboto', sans-serif;
-color: var(--black-color)
-    
-}
-
+/* ==========Reset Styles */
 /* =========Header=========== */
 .logo-link{
     font-family: 'Raleway', sans-serif;
@@ -29,6 +58,8 @@ color: var(--black-color)
         letter-spacing: 0.03em;
     
         color: var(--accent-color);
+        width: 145px;
+        height: 31px;
 }
 
 .logo {
@@ -126,6 +157,7 @@ color: var(--black-color)
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: var(--contact-color)
+        
 }
 .about-us-title{
         font-weight: 700;
