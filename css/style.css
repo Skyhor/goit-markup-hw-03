@@ -19,6 +19,14 @@ body {
     outline:1px solid tomato ;
 }
 /* =======Reset Styles========= */
+html{
+    box-sizing: border-box;
+}
+*,*
+::before,
+::after{
+    box-sizing:inherit;
+}
 
 h1,
 h2,
@@ -49,27 +57,36 @@ list-style: none;
     text-decoration: none;
 }
 /* ==========Reset Styles */
+
 /* =========Header=========== */
-.background-header{
+.test {
+    background-color: gold;
+}
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* ========================= */
+/* .background-header{ */
     background-color:#FFFFFF;
 }
-.container{
-    
+.logo-style {
+    display: inline-block;
+    margin-right: 0;
 }
-.logo-style{
-    margin-left: 215px;
-    margin-bottom: 24px;
-}
-.logo-link{
+.logo-link {
     font-family: 'Raleway', sans-serif;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
-    
-        color: var(--accent-color);
-        width: 145px;
-        height: 31px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    color: var(--accent-color);
+    width: 145px;
+    height: 31px;
 }
 
 .logo {
@@ -78,29 +95,28 @@ list-style: none;
 .logo-white{
     color: var(--white-color);
 }
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
 .header-nav-link{
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
     color: var(--black-color)
+    
 }
 .header-nav-link:hover, 
 .header-nav-link:focus {
     color: var(--accent-color);
 }
-.test{
-    display: block;
-    width: 49px;
-    height: 16px;
-    margin-top: 32px;
-    margin-left: 453px;
-    
-    
-  
+.wrapper-adres{
+    display: flex;
+    justify-content: flex-end;
 }
+
 .header-contact{
-    font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
@@ -111,7 +127,7 @@ list-style: none;
 .header-contact:hover,
 .header-contact:focus {
     color: var(--accent-color);}
-/* =======Header========= */
+/* =======Header */
 /* ======Header2======== */
 .portfolio-hero-button{
     cursor: pointer;
@@ -119,18 +135,18 @@ list-style: none;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
-        text-align: center;
+    
+}     text-align: center;
         letter-spacing: 0.03em;
         
-    
-}
+   
 .portfolio-hero-button:hover,
 .portfolio-hero-button:focus {
     background-color: var(--accent-color);
     
     color: var(--white-color);
 }
-/* =========Header2=========== */
+/* =========Header2 */
 /* =========Main=========== */
 .hero-title{
         font-weight: 900;
@@ -144,6 +160,8 @@ list-style: none;
         
 }
 .hero-button{
+    display: flex;
+    justify-content: center;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.87;
@@ -165,7 +183,12 @@ list-style: none;
     cursor: pointer;
 }
 
-.main-advantages{
+.advant-text{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-advant{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -186,12 +209,20 @@ list-style: none;
         text-align: center;
         letter-spacing: 0.03em;
 }
+.about-us-photo{
+    display: flex;
+flex-direction: row;
+}
 .team-title{
         font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
         text-align: center;
         letter-spacing: 0.03em;
+}
+.team-photo{
+    display: flex;
+    flex-direction: row;
 }
 .team-name{
         font-weight: 500;
@@ -207,6 +238,7 @@ list-style: none;
         letter-spacing: 0.03em;
         color: var(--contact-color)
 }
+/* =========Main */
 /* ===========Main-2========= */
 .content-title{
         font-weight: 700;
@@ -221,12 +253,15 @@ list-style: none;
         letter-spacing: 0.03em;
         color: var(--contact-color)
 }
+.portfolio-header-photo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* =============Main-2 */
 /* =======Footer======== */
 .footer-back{
-    position: absolute;
-        width: 1600px;
-        height: 252px;
-        left: 0px;
         background: #2F303A;
 }
 .footer-adres{
@@ -243,4 +278,5 @@ list-style: none;
         text-align: center;
         letter-spacing: 0.03em;
 }
+/* ============Foter */
 

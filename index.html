@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>homework</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -12,51 +18,50 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!-- Header -->
-    <header class="head-link background-header">
-      <nav class="container">
-        <div class="logo-style">
-          <a href="/" lang="en" class="link logo-link">
-            Web<span class="logo">Studio</span>
-          </a>
-        </div>
-
-        <ul class="list">
-          <li><a href="" class="link header-nav-link test">Студия</a></li>
+    <header class="head-link test">
+      <div class="container background-header">
+        <nav class="navigation">
+          <div class="logo-style">
+            <a href="/" lang="en" class="link logo-link">
+              Web<span class="logo">Studio</span>
+            </a>
+          </div>
+          <ul class="list wrapper">
+            <li>
+              <a href="./index.html" class="link header-nav-link">Студия</a>
+            </li>
+            <li>
+              <a href="./portfolio.html" class="link header-nav-link"
+                >Портфолио</a
+              >
+            </li>
+            <li>
+              <a href="" class="link header-nav-link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="list header-info wrapper-adres">
           <li>
-            <a href="./portfolio.html" class="link header-nav-link"
-              >Портфолио</a
+            <a
+              href="mailto:info@devstudio.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="header-contact link"
+            >
+              info@devstudio.com</a
             >
           </li>
-          <li><a href="" class="link header-nav-link">Контакты</a></li>
+          <li>
+            <a href="tel:+380961111111" class="header-contact link"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
-      </nav>
-      <ul class="list header-info">
-        <li>
-          <a
-            href="mailto:info@devstudio.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="header-contact link"
-          >
-            info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="header-contact link"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <!-- Hero -->
     <main class="content">
@@ -67,29 +72,29 @@
 
       <section class="advant">
         <h2 class="list advant-title">Наши преимущества</h2>
-        <ul class="list">
-          <li>
-            <h3 class="main-advant">Внимание к деталям</h3>
+        <ul class="list advant-text">
+          <li class="hero-text">
+            <h3 class="main-advant title-">Внимание к деталям</h3>
             <p class="main-advant-text text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
-          <li>
+          <li class="hero-text">
             <h3 class="main-advant">Пунктуальность</h3>
             <p class="main-advant-text text">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
-          <li>
+          <li class="hero-text">
             <h3 class="main-advant">Планирование</h3>
             <p class="main-advant-text text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
-          <li>
+          <li class="hero-text">
             <h3 class="main-advant">Современные технологии</h3>
             <p class="main-advant-text text">
               Значимость этих проблем настолько очевидна, что реализация
@@ -103,10 +108,10 @@
         <h2 class="about-us-title">Чем мы занимаемся</h2>
 
         <ul class="list">
-          <li>
+          <li class="about-us-photo">
             <img src="./img/img.jpg" width="370" height="294" alt=" Идея" />
           </li>
-          <li>
+          <li class="about-us-photo">
             <img
               src="./img/img(1).jpg"
               width="370"
@@ -114,7 +119,7 @@
               alt=" Алгоритм действий"
             />
           </li>
-          <li>
+          <li class="about-us-photo">
             <img
               src="./img/img(2).jpg"
               width="370"
@@ -128,7 +133,7 @@
       <section class="team">
         <h2 class="team-title">Наша команда</h2>
         <ul class="list">
-          <li>
+          <li class="team-photo">
             <img
               src="./img/img(3).jpg"
               width="270"
@@ -138,7 +143,7 @@
             <h3 class="team-name">Игорь Демьяненко</h3>
             <p class="about-team">Product Designer</p>
           </li>
-          <li>
+          <li class="team-photo">
             <img
               src="./img/img(4).jpg"
               width="270"
@@ -148,7 +153,7 @@
             <h3 class="team-name">Ольга Репина</h3>
             <p class="about-team">Frontend Developer</p>
           </li>
-          <li>
+          <li class="team-photo">
             <img
               src="./img/img(5).jpg"
               width="270"
@@ -158,7 +163,7 @@
             <h3 class="team-name">Николай Тарасов</h3>
             <p class="about-team">Marketing</p>
           </li>
-          <li>
+          <li class="team-photo">
             <img
               src="./img/img(6).jpg"
               width="270"
