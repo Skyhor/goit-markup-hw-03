@@ -69,10 +69,15 @@ list-style: none;
     padding-left: 15px;
     padding-right: 15px;
 }
-/* ========================= */
-/* .background-header{ */
-    background-color:#FFFFFF;
+.head-link-container{
+    display: flex;
+    align-items: center;
 }
+.navigation{
+    display: flex;
+    align-items: center;
+}
+
 .logo-style {
     display: inline-block;
     margin-right: 0;
@@ -91,13 +96,16 @@ list-style: none;
 
 .logo {
     color: var(--black-color);
+    margin-right: 92px;
 }
 .logo-white{
     color: var(--white-color);
 }
 .wrapper{
     display: flex;
-    justify-content: center;
+}
+.header-link:not(:last-child){
+    margin-right: 50px;
 }
 .header-nav-link{
         font-weight: 500;
@@ -105,6 +113,7 @@ list-style: none;
         line-height: 1.14;
         letter-spacing: 0.02em;
     color: var(--black-color)
+    
     
 }
 .header-nav-link:hover, 
