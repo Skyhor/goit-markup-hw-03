@@ -62,6 +62,10 @@ list-style: none;
 .test {
     background-color: gold;
 }
+.head-link{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
 .container {
     width: 1200px;
     margin-left: auto;
@@ -71,17 +75,14 @@ list-style: none;
 }
 .head-link-container{
     display: flex;
-    align-items: center;
+        align-items: center;
+justify-content:space-between;
 }
 .navigation{
     display: flex;
     align-items: center;
 }
 
-.logo-style {
-    display: inline-block;
-    margin-right: 0;
-}
 .logo-link {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -122,7 +123,6 @@ list-style: none;
 }
 .wrapper-adres{
     display: flex;
-    justify-content: flex-end;
 }
 
 .header-contact{
@@ -131,6 +131,11 @@ list-style: none;
         line-height: 1.14;
         letter-spacing: 0.02em;
         color: var(--contact-color)
+        
+}
+.header-contact{
+    margin-left: 50px;
+
 }
 
 .header-contact:hover,
@@ -156,21 +161,28 @@ list-style: none;
     color: var(--white-color);
 }
 /* =========Header2 */
-/* =========Main=========== */
+/* =========Hero=========== */
+
+.hero{
+    height: 600px;
+    background-color: #2F303A;
+}
+
 .hero-title{
+   padding: 200px 232px 30px 225px;
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
-        background-color: #2F303A;
         color: var(--white-color);
         
 }
 .hero-button{
-    display: flex;
-    justify-content: center;
+    min-width: 200px;
+    min-height: 50px;
+    padding: 30px ;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.87;
@@ -181,6 +193,10 @@ list-style: none;
         background-color: var(--accent-color);
         color:var(--white-color);
          
+}
+.hero-button{
+margin-left: auto;
+margin-right: auto;
 }
 
 .hero-button:hover,
@@ -195,6 +211,12 @@ list-style: none;
 .advant-text{
     display: flex;
     flex-direction: row;
+padding-top: 94px;
+padding-bottom: 94px;
+}
+
+.hero-text{
+    padding-right: 30px;
 }
 
 .main-advant{
@@ -211,23 +233,44 @@ list-style: none;
         color: var(--contact-color)
         
 }
+
+/* ===========Hero */
+/* =========About us========= */
+section{
+padding-top: 94px;
+    padding-bottom: 50px;
+}
 .about-us-title{
+    
         font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
         text-align: center;
         letter-spacing: 0.03em;
+}
+.about-us{
+    padding-bottom: 94px;
 }
 .about-us-photo{
     display: flex;
 flex-direction: row;
 }
+/* =========About-us */
+/* ========Our-team========== */
+.team{
+    background-color: #F5F4FA;
+}
 .team-title{
+   padding-top: 94px;
+   padding-bottom: 50px;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
         text-align: center;
         letter-spacing: 0.03em;
+}
+.team-list{
+    padding-bottom: 94px;
 }
 .team-photo{
     display: flex;
@@ -247,7 +290,7 @@ flex-direction: row;
         letter-spacing: 0.03em;
         color: var(--contact-color)
 }
-/* =========Main */
+/* =========Our Team */
 /* ===========Main-2========= */
 .content-title{
         font-weight: 700;
