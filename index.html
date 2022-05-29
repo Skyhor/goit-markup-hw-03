@@ -22,10 +22,10 @@
   </head>
   <body>
     <!-- Header -->
-    <header class="head-link test">
+    <header class="head-link">
       <div class="container head-link-container">
         <nav class="navigation">
-          <div class="logo-style">
+          <div class="">
             <a href="/" lang="en" class="link logo-link">
               Web<span class="logo">Studio</span>
             </a>
@@ -73,10 +73,10 @@
       </section>
 
       <section class="container advant">
-        <h2 class="list advant-title">Наши преимущества</h2>
+        <!-- <h2 class="list advant-title">Наши преимущества</h2> -->
         <ul class="list advant-text">
           <li class="hero-text">
-            <h3 class="main-advant title-">Внимание к деталям</h3>
+            <h3 class="main-advant">Внимание к деталям</h3>
             <p class="main-advant-text text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
@@ -133,9 +133,9 @@
         </ul>
         </div>
       </section>
-<!-- ============Our Team======== -->
+<!-- ============Our-Team======== -->
       <section class="team">
-        <div class="container">
+        <div class="container ">
           <h2 class="team-title">Наша команда</h2>
         <ul class="list team-list">
           <li class="team-photo">
@@ -145,8 +145,10 @@
               height="260"
               alt="Игорь Демьяненко"
             />
-            <h3 class="team-name">Игорь Демьяненко</h3>
+            <div class="team-card">
+              <h3 class="team-name">Игорь Демьяненко</h3>
             <p class="about-team">Product Designer</p>
+            </div>
           </li>
           <li class="team-photo">
             <img
@@ -155,8 +157,10 @@
               height="260"
               alt="Ольга Репина"
             />
-            <h3 class="team-name">Ольга Репина</h3>
+           <div class="team-card">
+              <h3 class="team-name">Ольга Репина</h3>
             <p class="about-team">Frontend Developer</p>
+           </div>
           </li>
           <li class="team-photo">
             <img
@@ -165,8 +169,10 @@
               height="260"
               alt="Николай Тарасов"
             />
-            <h3 class="team-name">Николай Тарасов</h3>
+           <div class="team-card">
+              <h3 class="team-name">Николай Тарасов</h3>
             <p class="about-team">Marketing</p>
+           </div>
           </li>
           <li class="team-photo">
             <img
@@ -175,22 +181,25 @@
               height="260"
               alt="Михаил Ермаков"
             />
-            <h3 class="team-name">Михаил Ермаков</h3>
+           <div class="team-card">
+              <h3 class="team-name">Михаил Ермаков</h3>
             <p class="about-team">UI Designer</p>
+           </div>
           </li>
         </ul>
         </div>
       </section>
     </main>
     <!-- Footer -->
-    <footer class="footer-back">
-      <a href="/" lang="en" class="logo-link link">
+    <footer class=" footer footer-logo">
+      <div class="container">
+        <a href="/" lang="en" class="logo-link link">
         Web<span class="logo-white">Studio</span>
       </a>
 
-      <address>
+      <address class="footer-adres-link">
         <ul class="list">
-          <li>
+          <li class="footer-link">
             <a
               href="https://maps.app.goo.gl/37EXF5mU9n8MmFkR7"
               target="_blank"
@@ -199,22 +208,24 @@
               >г. Киев, пр-т Леси Украинки, 26</a
             >
           </li>
-          <li>
+          <li class="footer-link">
             <a
               href="mailto:info@devstudio.com"
               target="_blank"
               rel="noopener noreferrer"
-              class="link header-contact"
+              class="link footer-contact"
               >info@devstudio.com
             </a>
           </li>
-          <li>
-            <a href="tel:+380961111111" class="link header-contact">
+          <li class="footer-link"> 
+            <a href="tel:+380961111111" class="link footer-contact">
               +38 096 111 11 11
             </a>
           </li>
         </ul>
       </address>
+      </div>
+     
     </footer>
   </body>
 </html>

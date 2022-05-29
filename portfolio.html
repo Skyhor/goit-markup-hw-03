@@ -22,50 +22,51 @@
   </head>
   <body>
      <!-- Header -->
-    <div>
-      <header class="head-link background-header test">
-        <div class="container">
-          <nav>
-            <div class="logo-style">
-              <a href="/" lang="en" class="link logo-link">
-                Web<span class="logo">Studio</span>
-              </a>
-            </div>
-            <ul class="list wrapper">
-              <li><a href="./index.html" class="link header-nav-link">Студия</a></li>
-              <li>
-                <a href="./portfolio.html" class="link header-nav-link"
-                  >Портфолио</a
-                >
-              </li>
-              <li>
-                <a href="" class="link header-nav-link">Контакты</a>
-              </li>
-            </ul>
-          </nav>
-          <ul class="list header-info wrapper-adres">
-            <li>
-              <a
-                href="mailto:info@devstudio.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="header-contact link"
-              >
-                info@devstudio.com</a
-              >
+    <header class="head-link">
+      <div class="container head-link-container">
+        <nav class="navigation">
+          <div class="">
+            <a href="/" lang="en" class="link logo-link">
+              Web<span class="logo">Studio</span>
+            </a>
+          </div>
+          <ul class="list wrapper">
+            <li class="header-link">
+              <a href="./index.html" class="link header-nav-link">Студия</a>
             </li>
-            <li>
-              <a href="tel:+380961111111" class="header-contact link"
-                >+38 096 111 11 11</a
+            <li class="header-link">
+              <a href="./portfolio.html" class="link header-nav-link"
+                >Портфолио</a
               >
+            </li class="header-link">
+            <li>
+              <a href="" class="link header-nav-link">Контакты</a>
             </li>
           </ul>
-        </div>
-      </header>
+        </nav>
+        <ul class="list wrapper-adres">
+          <li>
+            <a
+              href="mailto:info@devstudio.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="header-contact link"
+            >
+              info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="header-contact link"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
     <!-- Hero -->
     <main>
       <section>
-        <h1>Портфолио</h1>
+        <!-- <h1>Портфолио</h1> -->
         <ul class="list">
           <li>
             <button type="button" class="portfolio-hero-button">Все</button>
@@ -90,8 +91,8 @@
           </li>
         </ul>
         <!--Content  -->
-        <ul class="list">
-          <li class="content-list portfolio-header-photo">
+        <ul class="list portfolio-content">
+          <li class="content-list portfolio-header-photo ">
             <img
               src="./img/photohw2/img-hw2-1.png"
               width="370"
@@ -101,7 +102,7 @@
             <h2 class="content-title">Технокряк</h2>
             <p class="content-text">Веб-сайт</p>
           </li>
-          <li class="content-list portfolio-header-photo">
+          <li class="content-list portfolio-header-photo ">
             <img
               src="./img/photohw2/img-hw2-2.png"
               width="370"
@@ -111,7 +112,7 @@
             <h2 class="content-title">Постер New Orlean vs Golden Star</h2>
             <p class="content-text">Дизайн</p>
           </li>
-          <li class="content-list portfolio-header-photo">
+          <li class="content-list portfolio-header-photo ">
             <img
               src="./img/photohw2/img-hw2-3.png"
               width="370"
@@ -121,7 +122,7 @@
             <h2 class="content-title">Ресторан Seafood</h2>
             <p class="content-text">Приложение</p>
           </li>
-          <li class="content-list portfolio-header-photo">
+          <li class="content-list portfolio-header-photo ">
             <img
               src="./img/photohw2/img-hw2-4.png"
               width="370"
@@ -131,7 +132,7 @@
             <h2 class="content-title">Проект Prime</h2>
             <p class="content-text">Маркетинг</p>
           </li>
-          <li class="content-list portfolio-header-photo">
+          <li class="content-list portfolio-header-photo ">
             <img
               src="./img/photohw2/img-hw2-5.png"
               width="370"
@@ -141,7 +142,7 @@
             <h2 class="content-title">Проект Boxes</h2>
             <p class="content-text">Приложение</p>
           </li>
-          <li class="content-list portfolio-header-photo">
+          <li class="content-list portfolio-header-photo ">
             <img
               src="./img/photohw2/img-hw2-6.png"
               width="370"
@@ -151,7 +152,7 @@
             <h2 class="content-title">Inspiration has no Borders</h2>
             <p class="content-text">Веб-сайт</p>
           </li>
-          <li class="content-list portfolio-header-photo">
+          <li class="content-list portfolio-header-photo ">
             <img
               src="./img/photohw2/img-hw2-7.png"
               width="370"
@@ -161,7 +162,7 @@
             <h2 class="content-title">Издание Limited Edition</h2>
             <p class="content-text">Дизайн</p>
           </li>
-          <li class="content-list portfolio-header-photo">
+          <li class="content-list portfolio-header-photo ">
             <img
               src="./img/photohw2/img-hw2-8.png"
               width="370"
@@ -171,7 +172,7 @@
             <h2 class="content-title">Проект LAB</h2>
             <p class="content-text">Маркетинг</p>
           </li>
-          <li class="content-list portfolio-header-photo">
+          <li class="content-list portfolio-header-photo ">
             <img
               src="./img/photohw2/img-hw2-9.png"
               width="370"
@@ -185,14 +186,15 @@
       </section>
     </main>
     <!-- Footer -->
-    <footer class="footer-back">
-      <a href="/" lang="en" class="link logo-link">
+    <footer class=" footer footer-logo">
+      <div class="container">
+        <a href="/" lang="en" class="logo-link link">
         Web<span class="logo-white">Studio</span>
       </a>
 
-      <address>
+      <address class="footer-adres-link">
         <ul class="list">
-          <li>
+          <li class="footer-link">
             <a
               href="https://maps.app.goo.gl/37EXF5mU9n8MmFkR7"
               target="_blank"
@@ -201,22 +203,24 @@
               >г. Киев, пр-т Леси Украинки, 26</a
             >
           </li>
-          <li>
+          <li class="footer-link">
             <a
               href="mailto:info@devstudio.com"
               target="_blank"
               rel="noopener noreferrer"
-              class="link header-contact"
+              class="link footer-contact"
               >info@devstudio.com
             </a>
           </li>
-          <li>
-            <a href="tel:+380961111111" class="link header-contact">
+          <li class="footer-link"> 
+            <a href="tel:+380961111111" class="link footer-contact">
               +38 096 111 11 11
             </a>
           </li>
         </ul>
       </address>
+      </div>
+     
     </footer>
   </body>
 </html>
