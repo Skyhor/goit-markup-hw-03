@@ -247,9 +247,8 @@ margin-right: auto;
 /* ===========Hero */
 /* ==========Hero2========= */
 .portfolio-filter{
+    justify-content: center;
     display: flex;
-    margin-left: 280px;
-    margin-top: 94px;
     
 }
 .portfolio-button:not(:last-child){
@@ -270,17 +269,14 @@ margin-right: auto;
 }
 
 .portfolio-content {
-    padding-top: 50px;
+    margin-top: 50px;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     
 }
-.portfolio-header-photo{
-    border: 0.5px solid #EEEEEE;
-}
+
 .portfolio-header-photo:not(:nth-child(3n)){
-    margin-right: 27px;
+    margin-right: 30px;
 }
 
 .portfolio-header-photo:not(:nth-last-child(-n+3)){
@@ -291,6 +287,27 @@ margin-right: auto;
 }
 .portfolio-card{
     background-color: #FFFFFF;
+}
+.portfolio-card{
+    padding: 20px;
+}
+.content-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+}
+
+.content-title {
+    margin-bottom: 4px;
+}
+
+.content-text {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--contact-color)
 }
 /* =========Hero2 */
 /* =========About us========= */
@@ -362,29 +379,6 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
         color: var(--contact-color)
 }
 /* =========Our Team */
-/* ===========Main-2========= */
-.content-title{
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2;
-        letter-spacing: 0.06em;
-        
-}
-.content-title{
-    margin: 20px 24px 4px 24px;
-}
-
-.content-text{
-        font-size: 16px;
-        line-height: 1.87;
-        letter-spacing: 0.03em;
-        color: var(--contact-color)
-}
-.content-text{
-    margin: 4px 24px 20px 24px;
-}
-
-/* =============Main-2 */
 /* =======Footer======== */
 .footer{
     padding: 60px 0;
